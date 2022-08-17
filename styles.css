@@ -1,0 +1,14 @@
+:root{
+    -primary--dark:#ef4444;
+    -primary--light: #fca5a5;
+}
+
+body{
+    background-color:#ef4444;
+}
+
+h1{
+    background-color: #fca5a5;
+   
+}
+

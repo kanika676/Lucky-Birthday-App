@@ -7,14 +7,16 @@ function checkBirthDateIsLucky() {
   const dob = dateOfBirth.value;
   const sum = calculateSum(dob);
   console.log(sum);
-  if (sum % luckyNumber.value === 0) {
+   if (sum % luckyNumber.value === 0) {
     console.log("Zero remainder");
-    outputMessage.innerText = "You are lucky";
+    outputMessage.innerText = "You are lucky 🤞";
   } else {
     console.log("Not zero");
-    outputMessage.innerText = "You are not lucky";
+    outputMessage.innerText = "You are not lucky😬";
   }
-}
+} 
+
+
 function calculateSum(dob) {
   dob = dob.replaceAll("-", "");
   let sum = 0;
